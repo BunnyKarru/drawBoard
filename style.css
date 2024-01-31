@@ -18,6 +18,8 @@ body{
     border: 6px solid grey;
     border-radius: 10px;
     background-color: aliceblue;
+    width: 900px;
+    height: 650px;
 }
 
 li{
@@ -46,16 +48,16 @@ li{
         flex-direction: column;
         margin-top: 0;
     }
-    #drawboard{
+    #drawBoard{
         width: 98vw;
-        height: auto;
+        height: 85vh;
     }
 
     #bar{
         background-color: aliceblue;
         border: 6px solid gray;
         border-radius: 10px;
-        height: auto;
+        height: 15vh;
         width: 98vw;
        padding-right: 20px;
       }
