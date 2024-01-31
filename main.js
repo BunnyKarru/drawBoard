@@ -1,10 +1,7 @@
 
-const canvasSize_Height = 650;
-const canvasSize_width =900 ;
+
 const drawingBoard = document.getElementById('drawBoard');
 const context = drawingBoard.getContext("2d");
-drawingBoard.width = canvasSize_width ;
-drawingBoard.height = canvasSize_Height ;
 let x = 0;
 let y = 0;
 let isDrawing = false ;
